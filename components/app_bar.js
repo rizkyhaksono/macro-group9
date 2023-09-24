@@ -16,16 +16,15 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 
 // next
 import Image from "next/image";
 import Link from "next/link";
 
-const pages = ["Home", "About", "Blog", "Maps", "Contact"];
+const pages = ["About", "Blog", "Maps", "Contact"];
 const settings = ["Profile", "Settings", "Logout"];
 
-function ResponsiveAppBar() {
+export default function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -45,7 +44,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ color: "#388e3c", background: "white" }} enableColorOnDark>
+    <AppBar position="sticky" sx={{ color: "#388e3c", background: "white" }}>
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <Typography
@@ -56,8 +55,7 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
+              fontWeight: 800,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
@@ -91,14 +89,13 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" component={"a"} to="/about" href="/about" sx={{ color: "#343434", textDecoration: "none" }}>
-                    {page}
-                  </Typography>
+                  <Link href={`/${page.toLowerCase()}`}>
+                    <Typography sx={{ color: "#40AD3E", textDecoration: "none" }}>{page}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="p"
             noWrap
@@ -108,20 +105,22 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
+              fontWeight: 800,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
+            <Image src="/logo.png" width={30} height={20} alt="GreenSaver" sx={{ display: { xs: "none", md: "none", lg: "none", xl: "none" }, mr: 1 }} />
             GreenSaver
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "#388e3c", display: "block" }}>
-                {page}
-              </Button>
+              <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <Link href={`/${page.toLowerCase()}`}>
+                  <Typography sx={{ color: "#40AD3E", textDecoration: "none" }}>{page}</Typography>
+                </Link>
+              </MenuItem>
             ))}
           </Box>
 
@@ -148,8 +147,10 @@ function ResponsiveAppBar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+                <MenuItem key={setting} onClick={handleCloseNavMenu}>
+                  <Link href={`/${setting.toLowerCase()}`}>
+                    <Typography sx={{ color: "#40AD3E", textDecoration: "none" }}>{setting}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -159,4 +160,3 @@ function ResponsiveAppBar() {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;

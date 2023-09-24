@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Mohon dibaca sampai bawah..
+
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +15,16 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Stack
+
+CSS Library I Used [Tailwind CSS](https://tailwindcss.com/docs/installation) and for CSS Framework I Used [MUI Component](https://mui.com/material-ui/getting-started/)
+
+## Figma File
+
+[Click here](https://www.figma.com/file/CeFmcCzGx7VzEkiM1aEqxL/GreenSaver?type=design&node-id=0-1&mode=design&t=8RVbbVfhG8q1eapm-0)
+
+### How to Open?
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
