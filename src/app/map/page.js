@@ -1,19 +1,18 @@
 "use client"
 
-import ResponsiveAppBar from "../../../components/app_bar"
-
 import { Container, Typography } from "@mui/material"
 
-export default function AboutPage() {
+import ResponsiveAppBar from "../../../components/app_bar"
+
+export default function MapPage() {
   return (
     <div>
       <ResponsiveAppBar></ResponsiveAppBar>
       <Container>
         <Typography sx={{ mt: 2 }}>
-          Ini about page
+          Ini map page
         </Typography>
       </Container>
     </div>
   )
 }
-
