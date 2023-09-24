@@ -16,8 +16,10 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
-const pages = ['Home', 'About Us', 'Blog', 'Maps'];
+const pages = ['Home', 'About', 'Blog', 'Maps', 'Contact'];
+
 const settings = ['Profile', 'Settings', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -40,7 +42,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position='static' sx={{ color: 'white' , background: '#388e3c'}}>
+    <AppBar position='static' sx={{ color: 'white' , background: '#388e3c'}} enableColorOnDark>
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <Typography
@@ -58,7 +60,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            <Image src="/favicon.png" width={40} height={40} alt="GreenSaver" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}/>
+            <Image src="/logo.png" width={40} height={40} alt="GreenSaver" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}/>
             GreenSaver
           </Typography>
 
@@ -93,7 +95,14 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography
+                    textAlign="center"
+                    component={'a'}
+                    to='/about'
+                    href='/about'
+                    sx={{ color: '#343434', textDecoration: 'none' }}>
+                      {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>

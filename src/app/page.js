@@ -1,10 +1,12 @@
+"use client"
+
 // react
 import * as React from 'react'
 
 import Link from 'next/link';
 
 // @mui
-import { Container, Typography } from '@mui/material'
+import { Container, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 
 // component
@@ -14,14 +16,11 @@ export default function HomePage() {
   return (
     <div>
       <ResponsiveAppBar></ResponsiveAppBar>
-    <Container>
-      <Typography sx={{ mt: 2 }}>
-        Home Page
-        <Link href='/about'>
-          About
-        </Link>
-      </Typography>
-    </Container>
+      <Container>
+        <Typography sx={{ mt: 2 }}>
+          Ini home page
+        </Typography>
+      </Container>
     </div>   
   )
 }
