@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
-import { Container, Typography } from "@mui/material"
+// @mui
+import { Container, Typography } from "@mui/material";
 
-import ResponsiveAppBar from "../../../components/app_bar"
+// components
+import ResponsiveAppBar from "../../../components/app_bar";
 
 export default function BlogPage() {
   return (
     <div>
       <ResponsiveAppBar></ResponsiveAppBar>
       <Container>
-        <Typography sx={{ mt: 2 }}>
-          Ini blog page
-        </Typography>
+        <Typography sx={{ mt: 2 }}>Ini blog page</Typography>
       </Container>
     </div>
-  )
+  );
 }

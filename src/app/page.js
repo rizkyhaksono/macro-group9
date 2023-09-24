@@ -1,26 +1,21 @@
-"use client"
+"use client";
 
 // react
-import * as React from 'react'
-
-import Link from 'next/link';
+import * as React from "react";
 
 // @mui
-import { Container, Typography } from '@mui/material';
-import Button from '@mui/material/Button';
+import { Container, Typography } from "@mui/material";
 
 // component
-import ResponsiveAppBar from '../../components/app_bar';
+import ResponsiveAppBar from "../../components/app_bar";
 
 export default function HomePage() {
   return (
     <div>
       <ResponsiveAppBar></ResponsiveAppBar>
       <Container>
-        <Typography sx={{ mt: 2 }}>
-          Ini home page
-        </Typography>
+        <Typography sx={{ mt: 2 }}>Ini home page</Typography>
       </Container>
-    </div>   
-  )
+    </div>
+  );
 }
