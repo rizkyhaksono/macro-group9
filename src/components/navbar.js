@@ -10,12 +10,12 @@ export default function Navbar() {
         </a>
         <div className="flex md:order-2">
           <Link href="/signup">
-            <button type="button" class="py-2 px-4 mr-2 text-sm font-medium text-primary focus:outline-none bg-white rounded-lg border hover:bg-gray-300 hover:text-secondary focus:ring-4 focus:ring-gray-200">
+            <button type="button" className="py-2 px-4 mr-2 text-sm font-medium text-primary focus:outline-none bg-white rounded-lg border hover:bg-gray-300 hover:text-secondary focus:ring-4 focus:ring-gray-200">
               Sign Up
             </button>
           </Link>
           <Link href="/login">
-            <button type="button" class="py-2 px-4 mr-2 text-sm font-medium text-white focus:outline-none bg-primary rounded-lg border border-primary hover:bg-secondary hover:text-white focus:ring-4 focus:ring-gray-200">
+            <button type="button" className="py-2 px-4 mr-2 text-sm font-medium text-white focus:outline-none bg-primary rounded-lg border border-primary hover:bg-secondary hover:text-white focus:ring-4 focus:ring-gray-200">
               Login
             </button>
           </Link>

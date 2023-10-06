@@ -5,13 +5,17 @@ import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
+const imageLoader = () => {
+  return `https://cdn.shopify.com/s/files/1/0251/0939/7584/files/1-Ansel-Adams-479x500_large.jpg?v=1570145018?`;
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
       <div className="container mx-auto my-10">
-        <div class="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-40">
-          <div class="mr-auto place-self-center lg:col-span-7">
+        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-40">
+          <div className="mr-auto place-self-center lg:col-span-7">
             <div className="font-black text-secondary text-5xl">Daur Ulang Menjadi Lebih Mudah</div>
             <div className="mt-8 text-primary text-xl">Selamat datang di beranda kami, tempat di mana kami menginspirasi perubahan positif melalui daur ulang sampah untuk menjaga bumi kita tetap hijau dan berkelanjutan.</div>
           </div>
@@ -183,7 +187,7 @@ export default function Home() {
                 <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">It is horrifying that we have to fight our own government to save the environment.</p>
               </blockquote>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img className="w-6 h-6 rounded-full" src="https://cdn.shopify.com/s/files/1/0251/0939/7584/files/1-Ansel-Adams-479x500_large.jpg?v=1570145018" alt="profile picture" />
+                <Image loader={imageLoader} src="me.png" alt="Picture of the author" width={100} height={100} className="w-10 h-10 rounded-full" />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <div className="pr-3 font-medium text-gray-900 dark:text-white">Ansel Adam</div>
                   <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">American landscape photographer</div>
