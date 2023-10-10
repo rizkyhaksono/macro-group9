@@ -14,7 +14,7 @@ export default function Contact() {
           </div>
 
           <section className="bg-white dark:bg-gray-900">
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-xl">
               <form action="#" className="space-y-8">
                 <div>
                   <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">

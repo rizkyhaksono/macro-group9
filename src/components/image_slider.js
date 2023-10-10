@@ -26,16 +26,6 @@ const ImageSlider = ({ images }) => {
     document.querySelector(".swiper-button-prev").addEventListener("click", () => {
       swiperRef.current.slidePrev();
     });
-
-    return () => {
-      // Clean up event listeners when the component unmounts
-      document.querySelector(".swiper-button-next").removeEventListener("click", () => {
-        swiperRef.current.slideNext();
-      });
-      document.querySelector(".swiper-button-prev").removeEventListener("click", () => {
-        swiperRef.current.slidePrev();
-      });
-    };
   }, []);
 
   return (
