@@ -61,7 +61,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex flex-col items-center pb-10">
-                <Image src="/illustration.png" className="w-24 h-24 mb-3 rounded-full shadow-lg" alt="Rizky" width={300} height={300}></Image>
+                <Image src="/images/compressed.jpg" className="w-24 h-24 mb-3 rounded-full shadow-lg" alt="Rizky" width={300} height={300}></Image>
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Rizky Haksono</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Hacker</span>
                 <div className="flex mt-4 space-x-3 md:mt-6">

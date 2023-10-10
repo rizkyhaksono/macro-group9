@@ -38,8 +38,8 @@ const ImageSlider = ({ images }) => {
         ))}
       </div>
       <div className="swiper-pagination"></div>
-      <div className="xl:mr-24 swiper-button-next"></div>
-      <div className="xl:ml-24 swiper-button-prev"></div>
+      <div className="mr-24 swiper-button-next"></div>
+      <div className="ml-24 swiper-button-prev"></div>
     </div>
   );
 };

@@ -36,9 +36,9 @@ export default function Blog() {
                   surface.
                 </p>
                 <div className="w-full flex justify-end">
-                  <button className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
+                  <a href="/read_more" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
                     <span className=" text-base tracking-wide text-primary">Read more</span>
-                  </button>
+                  </a>
                 </div>
                 <div className="h-5 w-2"></div>
               </div>
