@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -22,7 +23,7 @@ export default function Login() {
                     name="email"
                     id="email"
                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="name@company.com"
+                    placeholder="name@email.com"
                     required=""
                   />
                 </div>
@@ -60,9 +61,14 @@ export default function Login() {
                     Forgot password?
                   </a>
                 </div>
-                <button type="submit" className="w-full py-2.5 px-5 mr-2 text-sm font-medium text-white focus:outline-none bg-primary rounded-lg border border-primary hover:bg-secondary hover:text-white focus:ring-4 focus:ring-gray-200">
-                  Log in your account
-                </button>
+                <Link href={"/dashboard"}>
+                  <button
+                    type="submit"
+                    className="w-full py-2.5 px-5 mt-4 mr-2 text-sm font-medium text-white focus:outline-none bg-primary rounded-lg border border-primary hover:bg-secondary hover:text-white focus:ring-4 focus:ring-gray-200"
+                  >
+                    Log in your account
+                  </button>
+                </Link>
                 <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                   Don’t have an account yet?{" "}
                   <a href="/signup" className="font-medium text-primary-600 hover:underline dark:text-primary-500">

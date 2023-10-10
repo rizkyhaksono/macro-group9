@@ -14,17 +14,17 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <div className="container mx-auto my-10">
-        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-40">
-          <div className="mr-auto place-self-center lg:col-span-7">
-            <div className="font-black text-secondary text-5xl">Daur Ulang Menjadi Lebih Mudah</div>
-            <div className="mt-8 text-primary text-xl">Selamat datang di beranda kami, tempat di mana kami menginspirasi perubahan positif melalui daur ulang sampah untuk menjaga bumi kita tetap hijau dan berkelanjutan.</div>
+        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20 xl:pt-20">
+          <div className="mr-auto place-self-center lg:col-span-7 md:pt-24 sm:pt-24 sm:mx-12">
+            <div className="font-black text-secondary text-7xl">Recycling Made Easier</div>
+            <div className="mt-8 text-primary text-xl">Welcome to our homepage, a place where we inspire positive change through recycling waste to keep our earth green and sustainable.</div>
           </div>
 
-          <div className=" lg:mt-0 lg:col-span-5">
+          <div className="md:my-12 sm:mx-12 sm:my-12 lg:mt-0 lg:col-span-5">
             <Image src="/illustration.png" alt="GreenSaver Logo" width={700} height={700} />
           </div>
         </div>
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white dark:bg-gray-900 sm:mx-12 sm:my-12">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
             <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
               <a href="#" className="flex items-center lg:justify-center">
@@ -197,6 +197,62 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      <section className="object-none bg-[url('https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/05/28/Desain-tanpa-judul-2023-05-28T115130481-2054438804.png')] bg-gray-700 bg-blend-multiply">
+        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
+          <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+            At GreenSaver, our primary commitment lies in revolutionizing rubbish disposal through the power of technology, innovation, and strategic investment.
+          </p>
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+              Get started
+              <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+            <a href="#" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+          <div className="flex flex-col justify-center">
+            <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none text-primary md:text-5xl lg:text-6xl dark:text-white">We help people dispose of rubbish</h1>
+            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+              At GreenSaver, we`re dedicated to transforming the way you handle waste management, making it easier and more convenient for you to dispose of rubbish. Our innovative solutions are designed to simplify the process, ensuring a
+              cleaner and more sustainable environment for all.
+            </p>
+            <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+              <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </a>
+              <a
+                href="#"
+                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+          <div>
+            <iframe
+              className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
+              src="https://www.youtube.com/embed/2aMdLunK1Go?si=IlTCL6gk0GRrBbCk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
       <Footer />
     </main>
   );
