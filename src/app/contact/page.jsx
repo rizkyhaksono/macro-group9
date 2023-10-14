@@ -1,29 +1,20 @@
-"use client";
-
-import Footer from "@/components/footer";
+import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
+import Image from "next/image";
 
-export default function Map() {
+export default function Contact() {
   return (
     <>
-      <Navbar></Navbar>
-      <div className="container mx-auto my-10">
+      <Navbar />
+      <div className="container mx-auto mt-10">
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
           <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
-            <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Map Action</h2>
-            <p className="mb-5 font-base text-gray-500 sm:text-xl">Report trash in the area around you</p>
+            <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Contact Us</h2>
+            <p className="mb-5 font-base text-gray-500 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
           </div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63824.949709079265!2d104.0606994!3d1.1175794499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988dc34cd0ecb%3A0xe373ee32cae6412!2sBatam%20Kota%2C%20Batam%20City%2C%20Riau%20Islands!5e0!3m2!1sen!2sid!4v1696926080530!5m2!1sen!2sid"
-            width="1230"
-            height="450"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
 
           <section className="bg-white dark:bg-gray-900">
-            <div className="pt-16 mx-auto max-w-screen-xl">
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-xl">
               <form action="#" className="space-y-8">
                 <div>
                   <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -69,10 +60,9 @@ export default function Map() {
               </form>
             </div>
           </section>
-          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-0 lg:space-y-0"></div>
         </div>
       </div>
-      <Footer></Footer>
+      <FooterLanding />
     </>
   );
 }

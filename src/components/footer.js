@@ -1,6 +1,11 @@
+"use client";
+
+import { Footer } from "flowbite-react";
+import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+
 import Image from "next/image";
 
-export default function Footer() {
+export default function FooterLanding() {
   return (
     <>
       <footer className="bg-primary dark:bg-primary">
@@ -10,37 +15,52 @@ export default function Footer() {
               <Image src="/logo.png" alt="GreenSaver Logo" className="h-8 mr-3 bg-white rounded p-1" width={30} height={30} />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white">GreenSaver</span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-              <li>
-                <a href="/about" className="mr-4 hover:underline md:mr-6 text-white">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="/blog" className="mr-4 hover:underline md:mr-6 text-white">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/map" className="mr-4 hover:underline md:mr-6 text-white">
-                  Map
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="hover:underline text-white">
-                  Contact
-                </a>
-              </li>
-            </ul>
+            <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+              <div>
+                <Footer.Title title="About" className="text-white" />
+                <Footer.LinkGroup col>
+                  <Footer.Link href="/about" className="text-white">
+                    GreenSaver
+                  </Footer.Link>
+                  <Footer.Link href="/blog#community" className="text-white">
+                    Community
+                  </Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title title="Follow Us" className="text-white" />
+                <Footer.LinkGroup col>
+                  <Footer.Link href="https://github.com/Green-Saver" className="text-white">
+                    Github
+                  </Footer.Link>
+                  <Footer.Link href="https://discord.com/" className="text-white">
+                    Discord
+                  </Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+              <div>
+                <Footer.Title title="Legal" className="text-white" />
+                <Footer.LinkGroup col>
+                  <Footer.Link href="https://en.wikipedia.org/wiki/Privacy_policy" className="text-white">
+                    Privacy Policy
+                  </Footer.Link>
+                  <Footer.Link href="https://en.wikipedia.org/wiki/Terms_of_service" className="text-white">
+                    Terms & Conditions
+                  </Footer.Link>
+                </Footer.LinkGroup>
+              </div>
+            </div>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 " />
-          <span className="block text-sm text-white sm:text-center dark:text-gray-400">
-            © 2023{" "}
-            <a href="#" className="hover:underline">
-              GreenSaver™
-            </a>
-            . All Rights Reserved.
-          </span>
+          <Footer.Divider />
+          <div className="w-full sm:flex sm:items-center sm:justify-between">
+            <Footer.Copyright by=" GreenSaver™" href="https://github.com/Green-Saver" year={2023} className="text-white" />
+            <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+              <Footer.Icon className="text-white" href="https://facebook.com" icon={BsFacebook} />
+              <Footer.Icon className="text-white" href="https://instagram.com" icon={BsInstagram} />
+              <Footer.Icon className="text-white" href="https://twitter.com" icon={BsTwitter} />
+              <Footer.Icon className="text-white" href="https://github.com/Green-Saver" icon={BsGithub} />
+            </div>
+          </div>
         </div>
       </footer>
     </>

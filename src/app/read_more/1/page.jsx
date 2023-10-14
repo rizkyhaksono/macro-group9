@@ -1,11 +1,11 @@
-import Footer from "@/components/footer";
+import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function ReadMore() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="container my-12">
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:pt-24 lg:px-6">
           <div className="max-w-screen-md mx-auto mb-8 lg:mb-12">
@@ -19,7 +19,7 @@ export default function ReadMore() {
         </div>
       </div>
 
-      <Footer></Footer>
+      <FooterLanding />
     </>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "@/components/footer";
+import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
@@ -319,7 +319,7 @@ export default function Dashboard() {
             </div>
           </div>
         </section>
-        <Footer />
+        <FooterLanding />
       </main>
     </>
   );

@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import FooterLanding from "@/components/footer";
 
 const imageLoader = () => {
   return `https://cdn.shopify.com/s/files/1/0251/0939/7584/files/1-Ansel-Adams-479x500_large.jpg?v=1570145018?`;
@@ -16,7 +16,7 @@ export default function Home() {
       <div className="container mx-auto my-10">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20 xl:pt-20">
           <div className="mr-auto place-self-center lg:col-span-7 md:pt-24 sm:pt-24 sm:mx-12">
-            <div className="font-black text-secondary text-7xl">Recycling Made Easier</div>
+            <div className="font-black text-primary text-7xl">Recycling Made Easier</div>
             <div className="mt-8 text-primary text-xl">Welcome to our homepage, a place where we inspire positive change through recycling waste to keep our earth green and sustainable.</div>
           </div>
 
@@ -204,17 +204,6 @@ export default function Home() {
           <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
             At GreenSaver, our primary commitment lies in revolutionizing rubbish disposal through the power of technology, innovation, and strategic investment.
           </p>
-          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-              Get started
-              <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </a>
-            <a href="#" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-              Learn more
-            </a>
-          </div>
         </div>
       </section>
 
@@ -227,14 +216,14 @@ export default function Home() {
               cleaner and more sustainable environment for all.
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-              <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+              <a href="/map" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                 Get started
                 <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg>
               </a>
               <a
-                href="#"
+                href="/about"
                 className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Learn more
@@ -246,14 +235,14 @@ export default function Home() {
               className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
               src="https://www.youtube.com/embed/2aMdLunK1Go?si=IlTCL6gk0GRrBbCk"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
       </section>
-      <Footer />
+      <FooterLanding />
     </main>
   );
 }
