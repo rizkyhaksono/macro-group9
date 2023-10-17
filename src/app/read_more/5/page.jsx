@@ -7,10 +7,10 @@ export default function ReadMore() {
     <>
       <Navbar />
       <div className="my-12">
-        <div className="max-w-screen-xl mx-auto lg:pt-12 lg:px-6 mb-8 lg:mb-12">
+        <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
           <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Di Batam Kini Ada Perusahaan Green Industry</h2>
-          <p className="my-1 font-base text-gray-500">
-            {"(Grand Launching PT. Free The Sea dimulai dengan pemotongan pita oleh Menko Marves Luhut B. Panjaitan. Wakil Kepala BP Batam Purwiyanto (kiri depan) turut hadir mewakili BP Batam. Dok. Foto: Posmetro)"}
+          <p className="my-1 font-sm text-gray-500">
+            {"Grand Launching PT. Free The Sea dimulai dengan pemotongan pita oleh Menko Marves Luhut B. Panjaitan. Wakil Kepala BP Batam Purwiyanto (kiri depan) turut hadir mewakili BP Batam. Dok. Foto: Posmetro"}
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
             PT Free The Sea bergerak dalam pengolahan daur ulang limbah plastik menjadi barang dengan nilai ekonomis. Bekerja sama dengan masyarakat, perusahaan Jerman ini mengumpulkan sampah botol plastik dari rumah-rumah warga dan didaur

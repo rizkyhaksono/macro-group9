@@ -7,7 +7,7 @@ export default function ReadMore() {
     <>
       <Navbar />
       <div className="my-12">
-        <div className="max-w-screen-xl mx-auto lg:pt-12 lg:px-6 mb-8 lg:mb-12">
+        <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
           <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Dinas Lingkungan Hidup Kota Batam Melaksanakan Hari Sampah Nasional</h2>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
             Hari Peduli Sampah Nasional (HPSN) diperingati setiap tanggal 21 Februari. Kementrian Negara Lingkungan Hidup mencanangkan 21 Februari 2006 sebagai Hari Peduli Sampah Nasional untuk pertama kalinya. Peringatan ini muncul atas

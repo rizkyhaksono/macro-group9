@@ -7,7 +7,7 @@ export default function ReadMore() {
     <>
       <Navbar />
       <div className="my-12">
-        <div className="max-w-screen-xl mx-auto lg:pt-12 lg:px-6 mb-8 lg:mb-12">
+        <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
           <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">
             Dinas Lingkungan Hidup Kota Batam bersama Tim Penggerak PKK Kota Batam melakukan Sosialisasi Pilah Sampah dari Rumah di Kelurahan Tembesi, Kecamatan Sagulung.
           </h2>
