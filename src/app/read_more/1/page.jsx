@@ -6,19 +6,24 @@ export default function ReadMore() {
   return (
     <>
       <Navbar />
-      <div className="container my-12">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:pt-24 lg:px-6">
-          <div className="max-w-screen-md mx-auto mb-8 lg:mb-12">
-            <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Pantai Abang</h2>
-            <p className="mb-5 font-base text-gray-500 sm:text-xl">
-              The location which is quite far from the center of Batam city (60km) makes this location a negative value. But when you are at the location, it will all be worth it. For a fee of ± 400 thousand, you can get sea transportation,
-              snorkeling equipment, lunch, photo services, etc. Most like having lunch on the clean beach then continuing snorkeling to the coral reefs and fish which are nice and shallow, about 2 meters from the sea surface.
-            </p>
-            <Image src="/images/picture5.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full" />
-          </div>
+      <div className="my-12">
+        <div className="max-w-screen-xl mx-auto lg:pt-12 lg:px-6 mb-8 lg:mb-12">
+          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">
+            Dinas Lingkungan Hidup Kota Batam bersama Tim Penggerak PKK Kota Batam melakukan Sosialisasi Pilah Sampah dari Rumah di Kelurahan Tembesi, Kecamatan Sagulung.
+          </h2>
+          <p>{"Jum'at, 8 September 2023"}</p>
+          <p className="my-5 font-base text-gray-500 sm:text-xl">
+            Dinas Lingkungan Hidup Kota Batam bersama Tim Penggerak PKK Kota Batam melakukan Sosialisasi Pilah Sampah dari Rumah di Kelurahan Tembesi, Kecamatan Sagulung. Acara dihadiri langsung oleh Ketua Tim Penggerak PKK Kota Batam, Hj.
+            Marlin Agustina yang sekaligus Wakil Gubernur Provinsi Kepri. Dalam sambutannya ia mengajak ibu-ibu ikut serta membantu terwujudnya Kota Batam yang bersih dengan memilah sampah dari rumah dan dari pilah sampah tersebut, sampah
+            yang bernilai ekonomis dapat dijual ke Bank Sampah. Pada kesempatan itu juga Ketua Tim Penggerak PKK Kota Batam juga meresmikan Bank Sampah dari Program CSR PT. Transgasindo di Perumahan Permata Rhabayu RW.18.
+          </p>
+          <Image src="/blogs/blog1.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full my-12" />
+          <p className="my-1">Email : dlh@batam.go.id</p>
+          <p className="my-1">Instagram : dlhkotabatam</p>
+          <p className="my-1">Facebook Fanpage : DLH Kota Batam</p>
+          <p className="my-1">#dlhkotabatam #lingkunganhidup #programkalibersih #hut78tnial #batamkotabaru</p>
         </div>
       </div>
-
       <FooterLanding />
     </>
   );

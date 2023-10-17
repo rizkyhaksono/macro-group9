@@ -15,7 +15,7 @@ export default function FooterLanding() {
               <Image src="/logo.png" alt="GreenSaver Logo" className="h-8 mr-3 bg-white rounded p-1" width={30} height={30} />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white">GreenSaver</span>
             </a>
-            <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+            <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 xl:pb-12 lg:pb-10 md:pb-8 sm:pb-8 pb-8">
               <div>
                 <Footer.Title title="About" className="text-white" />
                 <Footer.LinkGroup col>
@@ -51,7 +51,7 @@ export default function FooterLanding() {
               </div>
             </div>
           </div>
-          <Footer.Divider />
+          <Footer.Divider className="xl:pt-12 lg:pt-10 md:pt-8 sm:pt-8 pt-8" />
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright by=" GreenSaver™" href="https://github.com/Green-Saver" year={2023} className="text-white" />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

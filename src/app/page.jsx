@@ -14,17 +14,19 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <div className="container mx-auto my-10">
-        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-20 xl:pt-20">
-          <div className="mr-auto place-self-center lg:col-span-7 md:pt-24 sm:pt-24 sm:mx-12">
-            <div className="font-black text-primary text-7xl">Recycling Made Easier</div>
-            <div className="mt-8 text-primary text-xl">Welcome to our homepage, a place where we inspire positive change through recycling waste to keep our earth green and sustainable.</div>
+        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-8 xl:pt-12 justify-items-end justify-end items-end justify-self-end">
+          <div className="lg:col-span-7 sm:pt-16 sm:text-center md:text-center lg:text-start xl:text-start pt-12 max-[640px]:px-12">
+            <div className="font-black text-primary sm:text-5xl md:text-5xl lg:text-7xl xl:text-7xl text-5xl">Recycling Made Easier</div>
+            <div className="mt-8 text-primary sm:text-lg md:text-xl lg:text-xl xl:text-xl xl:px-0 lg:px-0 md:px-0 sm:px-12">
+              Welcome to our homepage, a place where we inspire positive change through recycling waste to keep our earth green and sustainable.
+            </div>
           </div>
 
-          <div className="md:my-12 sm:mx-12 sm:my-12 lg:mt-0 lg:col-span-5">
+          <div className="md:my-12 sm:mx-12 sm:my-12 md:mx-12 lg:mx-12 xl:mx-12 lg:mt-0 lg:col-span-5">
             <Image src="/illustration.png" alt="GreenSaver Logo" width={700} height={700} />
           </div>
         </div>
-        <section className="bg-white dark:bg-gray-900 sm:mx-12 sm:my-12">
+        <section className="bg-white dark:bg-gray-900 sm:mx-12 sm:my-12 pt-4">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
             <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
               <a href="#" className="flex items-center lg:justify-center">
