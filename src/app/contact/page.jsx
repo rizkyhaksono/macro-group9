@@ -1,12 +1,13 @@
+"use client";
+
 import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
-import Image from "next/image";
 
 export default function Contact() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto mt-12 max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12">
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
           <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Contact Us</h2>

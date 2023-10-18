@@ -2,12 +2,13 @@
 
 import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
+import css from "styled-jsx/css";
 
 export default function Map() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto mt-10 max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12">
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
           <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Map Action</h2>
@@ -15,10 +16,14 @@ export default function Map() {
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63824.949709079265!2d104.0606994!3d1.1175794499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988dc34cd0ecb%3A0xe373ee32cae6412!2sBatam%20Kota%2C%20Batam%20City%2C%20Riau%20Islands!5e0!3m2!1sen!2sid!4v1696926080530!5m2!1sen!2sid"
-            width="1230"
-            height="450"
-            allowFullScreen=""
+            width="100%"
+            height="600"
+            allowFullScreen="true"
             loading="lazy"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
 

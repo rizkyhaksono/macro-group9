@@ -14,7 +14,7 @@ export default function About() {
     <>
       <Navbar />
       <div className="container mx-auto my-10">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+        <div className="max-w-screen-xl px-4 mx-auto lg:py-24 lg:px-6 max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12">
           <div className="max-w-screen-md mx-auto text-center mb-8 lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white xl:pt-0 lg:pt-0 md:pt-12 sm:pt-12 pt-12">About Us</h2>
             <p className="mb-5 font-base text-gray-500 sm:text-2xl">Were founded in 2023, with offices in Batam, Indonesia.</p>

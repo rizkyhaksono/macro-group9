@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-
 import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
@@ -19,6 +18,7 @@ export default function Navbar() {
           <Image src="/logo.png" alt="GreenSaver Logo" className="h-8 mr-3" width={30} height={30} />
         </a>
         <div className="flex md:order-2">
+          {/* Sign Up and Login buttons */}
           <Link href="/signup">
             <button type="button" className="py-2 px-4 mr-2 text-sm font-medium text-primary focus:outline-none bg-white rounded-lg border hover:bg-gray-300 hover:text-secondary focus:ring-4 focus:ring-gray-200">
               Sign Up
@@ -30,6 +30,7 @@ export default function Navbar() {
             </button>
           </Link>
 
+          {/* Mobile menu button */}
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -46,39 +47,55 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        <div className={`items-center justify-between hidden w-full md:flex md:w-auto md:order-1 ${mobileMenuVisible ? "md:flex" : ""}`} id="navbar-sticky">
+
+        {/* Mobile navigation links */}
+        <div className={`items-center justify-between w-full md:hidden ${mobileMenuVisible ? "block" : "hidden"}`} id="navbar-sticky">
+          <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50">
+            <li>
+              <Link href="/about">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">About</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">Blog</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/map">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover-bg-gray-100">Map</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover-bg-gray-100">Contact</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Desktop navigation links */}
+        <div className={`items-center justify-between hidden w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a
-                href="/about"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-white dark:hover:text-primary md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                About
-              </a>
+              <Link href="/about">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">About</p>
+              </Link>
             </li>
             <li>
-              <a
-                href="/blog"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:primary dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Blog
-              </a>
+              <Link href="/blog">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover-bg-gray-100">Blog</p>
+              </Link>
             </li>
             <li>
-              <a
-                href="/map"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Map
-              </a>
+              <Link href="/map">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover-bg-gray-100">Map</p>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-primary dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Contact
-              </a>
+              <Link href="/contact">
+                <p className="block py-2 pl-3 pr-4 text-gray-900 rounded hover-bg-gray-100">Contact</p>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import FooterLanding from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";

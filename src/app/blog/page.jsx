@@ -11,7 +11,7 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12">
         <div className="max-w-screen-xl px-4 mx-auto lg:pt-24 lg:px-6">
           <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Blogs</h2>
