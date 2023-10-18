@@ -11,15 +11,15 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="container max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12 mx-auto">
-        <div className="max-w-screen-xl px-4 lg:pt-24 lg:px-6">
-          <div className="max-w-screen-md mb-8 text-center lg:mb-12">
+      <div className="container max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12 max-w-screen-xl px-4 mx-auto">
+        <div className="px-4 lg:pt-24 lg:px-6">
+          <div className="text-center mb-8 lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Blogs</h2>
             <p className="mb-5 font-base text-gray-500 sm:text-xl">Here at GreenSaver a collection of the latest news from us.</p>
           </div>
         </div>
 
-        <div tabIndex="0" aria-label="Group of cards" className="focus:outline-none py-6 mx-5">
+        <div tabIndex="0" aria-label="Group of cards" className="focus:outline-none py-6">
           <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
             <div tabIndex="0" className="focus:outline-none" aria-label="card 1">
               <Image src="/blogs/blog1.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full" />
