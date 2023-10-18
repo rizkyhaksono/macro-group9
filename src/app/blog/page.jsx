@@ -11,15 +11,15 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12">
-        <div className="max-w-screen-xl px-4 mx-auto lg:pt-24 lg:px-6">
-          <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+      <div className="container max-[640px]:mt-24 sm:mt-24 md:mt-24 lg:mt-12 xl:mt-12 mx-auto">
+        <div className="max-w-screen-xl px-4 lg:pt-24 lg:px-6">
+          <div className="max-w-screen-md mb-8 text-center lg:mb-12">
             <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Blogs</h2>
             <p className="mb-5 font-base text-gray-500 sm:text-xl">Here at GreenSaver a collection of the latest news from us.</p>
           </div>
         </div>
 
-        <div tabIndex="0" aria-label="Group of cards" className="focus:outline-none py-6">
+        <div tabIndex="0" aria-label="Group of cards" className="focus:outline-none py-6 mx-5">
           <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
             <div tabIndex="0" className="focus:outline-none" aria-label="card 1">
               <Image src="/blogs/blog1.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full" />
@@ -177,8 +177,8 @@ export default function Blog() {
         <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Communities</h2>
         <p className="mb-5 font-base text-gray-500 sm:text-xl">Here are some of Indonesia famous trash communities</p>
       </div>
-      <div className="container mx-auto grid xl:grid-cols-3 gap-8 pb-20">
-        <Card imgAlt="Asosiasi Daur Ulang Plastik Indonesia" imgSrc="/images/picture1.jpg" className="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+      <div className="container grid xl:grid-cols-3 gap-8 pb-20">
+        <Card imgAlt="Asosiasi Daur Ulang Plastik Indonesia" imgSrc="/images/picture1.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
           <Link href={"https://www.adupi.org/"}>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Asosiasi Daur Ulang Plastik Indonesia</h5>
             <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
@@ -187,7 +187,7 @@ export default function Blog() {
             </p>
           </Link>
         </Card>
-        <Card imgAlt="EwasteRJ" imgSrc="/images/picture2.jpg" className="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+        <Card imgAlt="EwasteRJ" imgSrc="/images/picture2.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
           <Link href={"https://www.instagram.com/ewasterj/?hl=en"}>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EwasteRJ</h5>
             <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
@@ -196,7 +196,7 @@ export default function Blog() {
             </p>
           </Link>
         </Card>
-        <Card imgAlt="Indonesian Plastics Recycle" imgSrc="/images/picture3.jpg" className="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+        <Card imgAlt="Indonesian Plastics Recycle" imgSrc="/images/picture3.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
           <Link href={"https://www.epr-indonesia.id/id/directories/Indonesian%20Plastic%20Recyclers%20%28IPR%29"}>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Indonesian Plastics Recycle</h5>
             <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">

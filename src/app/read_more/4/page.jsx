@@ -8,7 +8,7 @@ export default function ReadMore() {
   return (
     <>
       <Navbar />
-      <div className="my-12">
+      <div className="my-12 mx-8">
         <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
           <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Inaugurating Waste Recycling Facility in Batam, Coordinating Minister Luhut: Collaboration is Needed to Protect the Environment</h2>
           <p className="my-1 font-base text-gray-500">{"Batam, 17 April 2023 "}</p>
