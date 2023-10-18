@@ -8,40 +8,42 @@ export default function ReadMore() {
       <Navbar />
       <div className="my-12">
         <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
-          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Di Batam Kini Ada Perusahaan Green Industry</h2>
+          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">In Batam, there is now a Green Industry Company</h2>
           <p className="my-1 font-sm text-gray-500">
             {"Grand Launching PT. Free The Sea dimulai dengan pemotongan pita oleh Menko Marves Luhut B. Panjaitan. Wakil Kepala BP Batam Purwiyanto (kiri depan) turut hadir mewakili BP Batam. Dok. Foto: Posmetro"}
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            PT Free The Sea bergerak dalam pengolahan daur ulang limbah plastik menjadi barang dengan nilai ekonomis. Bekerja sama dengan masyarakat, perusahaan Jerman ini mengumpulkan sampah botol plastik dari rumah-rumah warga dan didaur
-            ulang menjadi Coffee Maker atau mesin pembuat kopi.
+            {
+              "PT Free The Sea is engaged in recycling plastic waste into goods with economic value. Working together with the community, this German company collects plastic bottle waste from people's homes and recycles it rework it into a Coffee Maker or coffee making machine."
+            }
           </p>
           <Image src="/blogs/blog5.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full my-12" />
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            Hasil sampah plastik tersebut kemudian didaur ulang menjadi PET Flakes dan Biji Plastik (Petrabs) untuk selanjutnya diolah menjadi salah satu bahan yg dipergunakan untuk pembuatan Coffee Maker atau mesin pembuat kopi yang
-            merupakan produk utama PT WIK. Grand Launching PT Free The Sea ditandai dengan pemotongan pita oleh Menteri Koordinator Bidang Kemaritiman dan Investasi Luhut Binsar Pandjaitan, pada Kamis (9/3/2023) bersama dengan Mr. Markus
-            Steckhan, Chief Strategy Officer of WIK Group.
+            {
+              "The resulting plastic waste is then recycled into PET Flakes and Plastic Seeds (Petrabs) which are then processed into one of the materials used to make Coffee Makers or coffee making machines is the main product of PT WIK. The Grand Launching of PT Free The Sea was marked by cutting the ribbon by the Coordinating Minister for Maritime Affairs and Investment Luhut Binsar Pandjaitan, on Thursday (9/3/2023) together with Mr. Mark Steckhan, Chief Strategy Officer of WIK Group."
+            }
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            “Investasi ini luar biasa. Mendaur ulang sampah plastik menjadi produk bernilai ekonomi. Menjaga lingkungan kita dari microplastic yang merupakan bahan berbahaya bagi generasi penerus. Saya ajak warga Batam mendukung ini dengan
-            kontribusi jangan buang sampah sembarangan tapi salurkan.” Kata Luhut.
+            {
+              "This investment is extraordinary. Recycling plastic waste into economically valuable products. Protecting our environment from microplastics which are dangerous materials for future generations. I invite Batam residents to support this by Don't throw rubbish carelessly but distribute it. Luhut said."
+            }
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            Menurutnya, pencemaran sampah plastik di perairan akan berdampak secara signifikan bagi kesehatan anak-anak sebagai generasi masa depan. “Bayangkan saat kita membuang sampah plastik ke laut kemudian microplastics dikonsumsi oleh
-            Ikan-ikan yang kita makan, bagi ibu hamil ini hampir pasti berdampak pada bayinya. Ayok kita dukung investasi ini. Jangan buang sampah sembarangan.” Tegas Luhut. Hadirnya PT Free The Sea ini diharapkan dapat membantu pemerintah
-            mewujudkan target pengurangan sampah plastik laut hingga 7%. “Saya mengajak teman-teman di Batam, yok kita dukung investasi ini.” Pungkas Luhut.
+            {
+              "According to him, plastic waste pollution in waters will have a significant impact on the health of children as future generations. “Imagine when we throw plastic waste into the sea and then the microplastics are consumed For pregnant women, the fish we eat will almost certainly have an impact on their babies. Come on, let's support this investment. Do not litter. Luhut emphasized. It is hoped that the presence of PT Free The Sea will help the government realizing the target of reducing marine plastic waste by up to 7%. I invite friends in Batam, let's support this investment. Luhut concluded."
+            }
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            International Commercial Manager WIK Group, Mr. Bahri Beyhan menambahkan, tahun lalu perusahaan telah berhasil mengumpulkan sekitar 20 juta PET Bottle dari seluruh wilayah Batam. Dan pihaknya sudah berhasil memproduksi sekitar
-            satu juta mesin kopi menggunakan bahan baku upcycling ini. Turut hadir mewakili BP Batam dalam Grand Launching PT. Free The Sea, Wakil Kepala BP Batam Purwiyanto menyampaikan,
+            {
+              "International Commercial Manager WIK Group, Mr. Bahri Beyhan added that last year the company had succeeded in collecting around 20 million PET Bottles from all over the Batam area. And his party has succeeded in producing approx one million coffee machines use this upcycled raw material. Also present representing BP Batam at the Grand Launching of PT. Free The Sea, Deputy Head of BP Batam Purwiyanto said,"
+            }
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            “Kami berharap ada Free The Sea berikutnya. Kami sangat senang ya terhadap apa yang dilakukan Free The Sea akan membawa dampak baik bagi lingkungan dan industri kita. Kami menanti investasi yang sama ke depan seperti pengolahan
-            enceng gondok di waduk misalnya.” Imbuh Purwiyanto. “…investasi ini mendukung visi yang telah dicanangkan Kepala BP Batam Bapak Muhammad Rudi untuk mewujudkan Batam Green City kawasan tujuan investasi yang berwawasan lingkungan.
-            ” Kata Purwiyanto. Dalam kesempatan yang terpisah, Kepala BP Batam Muhammad Rudi mengapresiasi hadirnya investasi dimana fokus bisnis nya mengelola dan melakukan daur ulang terhadap sampah plastik untuk dijadikan barang jadi
-            yang bernilai ekonomis.
+            {
+              "We hope there will be another Free The Sea. We are very happy that what Free The Sea is doing will have a good impact on the environment and our industry. We look forward to the same investment in the future such as processing water hyacinth in reservoirs, for example.” Purwiyanto added, this investment supports the vision launched by the Head of BP Batam, Mr. Muhammad Rudi, to create Batam Green City, an environmentally friendly investment destination area. said Purwiyanto. On a separate occasion, Head of BP Batam Muhammad Rudi appreciated the presence of investment where the business focus is managing and recycling plastic waste to make finished goods. which has economic value."
+            }
           </p>
-          <p className="my-5 font-base text-gray-500 sm:text-xl">“Selain akan mendongkrak pertumbuhan ekonomi, ini juga diperlukan dari sisi lingkungan karena Batam ada kota industri,” kata Rudi.</p>
+          <p className="my-5 font-base text-gray-500 sm:text-xl">{"Apart from boosting economic growth, this is also needed from an environmental perspective because Batam is an industrial city, said Rudi."}</p>
         </div>
       </div>
       <FooterLanding />

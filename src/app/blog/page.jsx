@@ -32,9 +32,9 @@ export default function Blog() {
                 </p>
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
-                <p className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">Dinas Lingkungan Hidup Kota Batam</p>
+                <p className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">Batam City Environmental Service</p>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Dinas Lingkungan Hidup Kota Batam bersama Tim Penggerak PKK Kota Batam melakukan Sosialisasi Pilah Sampah dari Rumah di Kelurahan Tembesi, Kecamatan Sagulung.
+                  The Batam City Environmental Service together with the Batam City PKK Mobilization Team carried out socialization on sorting waste from home in Tembesi Village, Sagulung District.
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/1" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
@@ -56,10 +56,10 @@ export default function Blog() {
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
                 <h1 tabIndex="0" className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">
-                  Hari Sampah Nasional Kota Batam
+                  Batam City National Waste Day
                 </h1>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Hari Peduli Sampah Nasional (HPSN) diperingati setiap tanggal 21 Februari. Kementrian Negara Lingkungan Hidup mencanangkan 21 Februari 2006 sebagai Hari Peduli Sampah Nasional untuk pertama kalinya.
+                  National Waste Awareness Day (HPSN) is celebrated every February 21. The Ministry of Environment declared February 21 2006 as National Waste Awareness Day for the first time.
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/2" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
@@ -81,10 +81,10 @@ export default function Blog() {
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
                 <h1 tabIndex="0" className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">
-                  Resmikan Fasilitas Daur Ulang Sampah di Batam
+                  Inaugurates Waste Recycling Facility in Batam
                 </h1>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Batam, Pemerintah terus mendorong komitmen para pihak untuk daur ulang sampah plastik menjadi produk yang lebih bermanfaat.
+                  Batam, the Government continues to encourage the commitment of parties to recycle plastic waste into more useful products.
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/3" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
@@ -106,10 +106,10 @@ export default function Blog() {
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
                 <h1 tabIndex="0" className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">
-                  ITEBA Bahas Kerjasama Pengelolaan Sampah
+                  ITEBA Discusses Waste Management Cooperation
                 </h1>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Pejabat Dinas Lingkungan Hidup (DLH) Kota Batam, Bapak Ip, ST., MT. selaku Kabid Perlindungan Lingkungan Hidup beserta timnya melakukan kunjungan ke Institut Teknologi Batam (ITEBA) pada hari Senin tanggal 17 April 2023.
+                  Batam City Environmental Service (DLH) official, Mr. Ip, ST., MT. as Head of Environmental Protection and his team visited the Batam Institute of Technology (ITEBA) on Monday 17 April 2023.
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/4" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
@@ -131,10 +131,10 @@ export default function Blog() {
               </div>
               <div className="bg-gray-50 dark:bg-gray-800 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
                 <h1 tabIndex="0" className="focus:outline-none text-4xl text-gray-900 dark:text-white font-bold tracking-wider">
-                  Di Batam Kini Ada Perusahaan Green Industry
+                  In Batam, there is now a Green Industry Company
                 </h1>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Bekerja sama dengan masyarakat, perusahaan Jerman ini mengumpulkan sampah botol plastik dari rumah-rumah warga dan didaur ulang menjadi Coffee Maker atau mesin pembuat kopi.
+                  {"Working together with the community, this German company collects plastic bottle waste from people's homes and recycles it into Coffee Makers or coffee making machines."}
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/5" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">
@@ -159,7 +159,7 @@ export default function Blog() {
                   MIN 2 Batam Adakan Program Bank Sampah
                 </h1>
                 <p tabIndex="0" className="focus:outline-none text-gray-700 dark:text-gray-200 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
-                  Program Bank Sampah merupakan salah satu upaya memanfaatkan sampah-sampah yang telah dibuang agar bisa dijual dan menghasilkan uang dan juga menjaga kebersihan lingkungan.
+                  The Waste Bank Program is an effort to utilize discarded rubbish so that it can be sold and make money and also keep the environment clean.
                 </p>
                 <div className="w-full flex justify-end">
                   <a href="/read_more/6" className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer">

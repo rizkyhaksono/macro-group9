@@ -8,43 +8,46 @@ export default function ReadMore() {
       <Navbar />
       <div className="my-12">
         <div className="max-w-screen-xl mx-auto pt-24 lg:px-6 mb-8 lg:mb-12">
-          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Dinas Lingkungan Hidup Kota Batam Melaksanakan Hari Sampah Nasional</h2>
+          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Batam City Environmental Service Implements National Waste Day</h2>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            Hari Peduli Sampah Nasional (HPSN) diperingati setiap tanggal 21 Februari. Kementrian Negara Lingkungan Hidup mencanangkan 21 Februari 2006 sebagai Hari Peduli Sampah Nasional untuk pertama kalinya. Peringatan ini muncul atas
-            ide dan desakan dari sejumlah pihak untuk mengenang peristiwa di Leuwigajah, Cimahi, Jawa Barat, pada 21 Februari 2005 di mana sampah dapat menjadi mesin pembunuh yang merenggut nyawa lebih dari 100 jiwa.
+            {
+              "National Waste Awareness Day (HPSN) is celebrated every February 21. The Ministry of Environment declared February 21 2006 as National Waste Awareness Day for the first time. This warning appears above ideas and pressure from a number of parties to commemorate the events in Leuwigajah, Cimahi, West Java, on February 21 2005 where rubbish could become a killing machine that claimed the lives of more than 100 people."
+            }
           </p>
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            Pada peristiwa naas tersebut, terjadi akibat curah hujan yang tinggi dan ledakan gas metana pada tumpukan sampah. Akibatnya 157 jiwa melayang dan dua kampung (Cilimus dan Pojok) hilang dari peta karena tergulung longsoran sampah
-            yang berasal dari Tempat Pembuangan Akhir (TPA) Leuwigajah. Tragedi ini memicu dicanangkannya Hari Peduli Sampah Nasional (HPSN) yang diperingati tepat di tanggal insiden itu terjadi.
+            {
+              "In this unfortunate incident, it occurred due to heavy rainfall and an explosion of methane gas in a pile of rubbish. As a result, 157 people lost their lives and two villages (Cilimus and Pojok) disappeared from the map due to landslides of rubbish, which comes from the Leuwigajah Final Disposal Site (TPA). This tragedy triggered the proclamation of National Waste Awareness Day (HPSN), which was commemorated on the exact date the incident occurred."
+            }
           </p>
           <Image src="/blogs/blog2.jpg" alt="GreenSaver Logo" width={800} height={700} className="focus:outline-none w-full my-12" />
           <p className="my-5 font-base text-gray-500 sm:text-xl">
-            Sampah memang menjadi masalah besar di berbagai kota di Indonesia khususnya di kota maju sekalipun seperti Kota Batam. Salah satu penyebab peristiwa tersebut adalah rendahnya kesadaran masyarakat terhadap dampak yang ditimbulkan
-            dari sampah. Saat ini, bidang Pengelolaan Persampahan dan bidang Perlindungan Lingkungan DLH Kota Batam bekerja maksimal untuk menangani masalah tersebut. Masalah yang satu ini tidak bisa di anggap sebelah mata karena salah satu
-            syarat untuk menjadi kota maju ditentukan dengan bagaimana kota tersebut mengelola sampah dengan baik. Berdasarkan hal tersebut, Dinas Lingkungan Hidup Kota Batam melalui Hari Peduli Sampah Nasional mengajak seluruh masyarakat
-            Kota Batam untuk menjaga kebersihan lingkungan sekitar dengan membuang sampah pada tempatnya.
+            {
+              "Garbage is indeed a big problem in various cities in Indonesia, especially in developed cities such as Batam City. One of the causes of this incident is the low level of public awareness of the impacts caused from trash. Currently, the Waste Management sector and the Environmental Protection sector of Batam City DLH are working optimally to handle this problem. This problem cannot be underestimated because it is one thing The requirements for becoming a developed city are determined by how the city manages waste well. Based on this, the Batam City Environmental Service through National Waste Awareness Day invites the entire community Batam City maintains the cleanliness of the surrounding environment by disposing of rubbish in its proper place."
+            }
           </p>
-          <p className="my-5 font-base text-gray-500 sm:text-xl">HPSN Tahun 2019 ini diperingati melalui rangkaian kegiatan yang meliputi :</p>
+          <p className="my-5 font-base text-gray-500 sm:text-xl">The 2019 HPSN was commemorated through a series of activities including: :</p>
           <p className="my-2 font-base text-gray-500 sm:text-xl">
-            1. Tanggal 21 Februari 2019, Kegiatan Gotong Royong Bersih Pantai di Bengkong Laut Kecamatan Bengkong bersama Polda Kepri yang diikuti oleh Pemerintahan Kota Batam, Kepolisian, TNI, Instansi Vertikal, Pelajar, dan Masyarakat.
+            1. On February 21 2019, the Beach Cleaning Mutual Cooperation Activity in Bengkong Laut, Bengkong District with the Riau Islands Regional Police was attended by the Batam City Government, Police, TNI, Vertical Agencies, Students
+            and the Community.
           </p>
-          <p className="my-2 font-base text-gray-500 sm:text-xl">2. Tanggal 21 Februari 2019, Kegiatan Gotong Royong Bersih Pantai di Pantai Nongsa bersama POLAIRUD yang diikuti oleh Pemerintah Kota Batam, Pelajar, dan Masyarakat. </p>
+          <p className="my-2 font-base text-gray-500 sm:text-xl">2. On February 21 2019, the Beach Cleaning Mutual Cooperation Activity at Nongsa Beach with POLAIRUD was attended by the Batam City Government, Students and the Community.</p>
           <p className="my-2 font-base text-gray-500 sm:text-xl">
-            3. Tanggal 11 Februari 2019, Kegiatan Workshop Pemanfaatan Sampah di Aula Auditorium Universitas Internasional Batam. Workshop ini meliputi pelatihan pembuatan kompos (composting), ecobrick, dan penampilan kreasi pemanfaatan
-            sampah lainnya. Workshop ini diikuti perwakilan industri, sekolah, dan masyarakat.
-          </p>
-          <p className="my-2 font-base text-gray-500 sm:text-xl">
-            4. Tanggal 10 Februari 2019 s.d 10 Maret 2019, Kegiatan Lomba Karya dan Baca Puisi dan Lomba Kreatifitas Pemanfaatan Sampah Anorganik Tingkat Pelajar SMP & SMA Se-Kota Batam.
+            {
+              "3. February 11 2019, Waste Utilization Workshop in the Auditorium Hall of Batam International University. This workshop includes training in making compost (composting), ecobricks, and displays of utilization creations other rubbish. This workshop was attended by representatives of industry, schools and the community."
+            }
           </p>
           <p className="my-2 font-base text-gray-500 sm:text-xl">
-            5. Tanggal 17 Maret 2019, Kegiatan Gotong Royong Bersih Pantai di Tanjung Seberang Harbour Bay (Tanjung Uma), yang merupakan puncak acara rangkaian kegiatan Hari Peduli Sampah Nasional (HPSN) Tahun 2019 yang diikurti Seluruh
-            Organisasi Perangkat Daerah (OPD) Kota Batam, Instansi Vertikal, Pelajar serta Masyarakat.
+            {"4. From 10 February 2019 to 10 March 2019, Activities for Writing and Poetry Reading Competitions and Creativity Competitions for Using Inorganic Waste for Middle School & High School Students in Batam City."}
           </p>
           <p className="my-2 font-base text-gray-500 sm:text-xl">
-            Puncak acara HPSN diperingati pada hari minggu 17 maret 2019. Dinas Lingkungan Hidup Kota Batam melakukan aksi gotong royong untuk memperingati Hari Peduli Sampah Nasional (HPSN) yang diselenggarakan di 5 titik lokasi yang
-            dianggap tercemar oleh sampah, yakni seputar Tanjung diseberang Harbour Bay, Kelurahan Tanjung Utama, Kecamatan Lubuk Baja Batam yang di ikuti oleh instansi pemerintahan, Siswa-Siswi pramuka, TNI, POLRI, BP Batam, masyarakat
-            sekitar dan beberapa perusahaan yang dimulai pada pukul 09.00 WIB sampai dengan 12.00 WIB dan diagendakan akan dibuka oleh Walikota Batam. Namun, karena ada mendadak agenda acara lain, maka Bapak Walikota Batam H Muhammad Rudi,
-            SE. MM diwakilkan oleh kepada Sekretaris Daerah Kota Batam, Bapak Drs. Jefridin, MPd, dan Kepala Dinas Lingkungan Hidup Kota Batam Bapak Dr. Herman Rozie.
+            {
+              "5. On March 17 2019, the Beach Cleaning Mutual Cooperation Activity at Tanjung Seberang Harbor Bay (Tanjung Uma), which was the culmination of a series of activities for the 2019 National Waste Awareness Day (HPSN) which was participated in by all Batam City Regional Apparatus Organizations (OPD), Vertical Agencies, Students and the Community."
+            }
+          </p>
+          <p className="my-2 font-base text-gray-500 sm:text-xl">
+            {
+              "The highlight of the HPSN event was celebrated on Sunday 17 March 2019. The Batam City Environmental Service carried out mutual cooperation actions to commemorate National Waste Awareness Day (HPSN) which was held at 5 locations located considered polluted by rubbish, namely around Tanjung across Harbor Bay, Tanjung Utama Subdistrict, Lubuk Baja District, Batam, which was attended by government agencies, scout students, TNI, POLRI, BP Batam, the community around and several companies which starts at 09.00 WIB until 12.00 WIB and is scheduled to be opened by the Mayor of Batam. However, because there was a sudden agenda for another event, the Mayor of Batam H Muhammad Rudi,S.E. MM was represented by the Regional Secretary of Batam City, Mr. Drs. Jefridin, MPd, and Head of the Batam City Environmental Service, Dr. Herman Rozie."
+            }
           </p>
         </div>
       </div>
