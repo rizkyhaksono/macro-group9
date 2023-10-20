@@ -171,42 +171,42 @@ export default function Blog() {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="max-w-screen-md mx-auto mb-8 text-center pt-12 lg:mb-12" id="community">
-        <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Communities</h2>
-        <p className="mb-5 font-base text-gray-500 sm:text-xl">Here are some of Indonesia famous trash communities</p>
-      </div>
-      <div className="container grid xl:grid-cols-3 gap-8 pb-20">
-        <Card imgAlt="Asosiasi Daur Ulang Plastik Indonesia" imgSrc="/images/picture1.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
-          <Link href={"https://www.adupi.org/"}>
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Asosiasi Daur Ulang Plastik Indonesia</h5>
-            <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
-              Founded in 2015, the Indonesian Plastic Recycling Association (ADUPI) is a non-profit organization that aims to encourage Indonesian people to care more about plastic waste. This institution was founded as a forum for
-              practitioners and the plastic recycling industry in Indonesia. Members can gather with each other, build networks, and share knowledge.
-            </p>
-          </Link>
-        </Card>
-        <Card imgAlt="EwasteRJ" imgSrc="/images/picture2.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-          <Link href={"https://www.instagram.com/ewasterj/?hl=en"}>
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EwasteRJ</h5>
-            <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
-              EwasteRJ is a community that operates in the field of recycling electronic waste or e-waste. Since 2015, EwasteRJ has been active in educating the Indonesian public about the dangers of electronic waste. In the campaign
-              carried out, EwasteRJ also provides knowledge to the public regarding how to dispose of electronic waste properly.
-            </p>
-          </Link>
-        </Card>
-        <Card imgAlt="Indonesian Plastics Recycle" imgSrc="/images/picture3.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
-          <Link href={"https://www.epr-indonesia.id/id/directories/Indonesian%20Plastic%20Recyclers%20%28IPR%29"}>
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Indonesian Plastics Recycle</h5>
-            <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
-              Indonesian Plastic Recycle (IPR) fokus mewadahi para pelaku usaha di bidang daur ulang plastik. Asosiasi ini bertujuan menciptakan ekosistem daur ulang plastik yang harmonis, agar dapat membangun ekonomi melingkar (circular
-              economy) yang berkelanjutan di kalangan pelaku usaha daur ulang plastik tersebut. Selain itu, IPR juga ingin berkontribusi terhadap kelestarian lingkungan hidup.
-            </p>
-          </Link>
-        </Card>
-      </div>
+        <div className="mx-auto mb-8 text-center pt-12 lg:mb-12" id="community">
+          <h2 className="mb-4 font-black text-5xl text-primary tracking-tigh dark:text-white">Communities</h2>
+          <p className="mb-5 font-base text-gray-500 sm:text-xl">Here are some of Indonesia famous trash communities</p>
+        </div>
 
+        <div className="justify-items-center justify-center justify-self-center items-center grid xl:grid-cols-3 gap-8 pb-20 mx-auto">
+          <Card imgAlt="Asosiasi Daur Ulang Plastik Indonesia" imgSrc="/images/picture1.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
+            <Link href={"https://www.adupi.org/"}>
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Asosiasi Daur Ulang Plastik Indonesia</h5>
+              <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
+                Founded in 2015, the Indonesian Plastic Recycling Association (ADUPI) is a non-profit organization that aims to encourage Indonesian people to care more about plastic waste. This institution was founded as a forum for
+                practitioners and the plastic recycling industry in Indonesia. Members can gather with each other, build networks, and share knowledge.
+              </p>
+            </Link>
+          </Card>
+          <Card imgAlt="EwasteRJ" imgSrc="/images/picture2.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+            <Link href={"https://www.instagram.com/ewasterj/?hl=en"}>
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EwasteRJ</h5>
+              <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
+                EwasteRJ is a community that operates in the field of recycling electronic waste or e-waste. Since 2015, EwasteRJ has been active in educating the Indonesian public about the dangers of electronic waste. In the campaign
+                carried out, EwasteRJ also provides knowledge to the public regarding how to dispose of electronic waste properly.
+              </p>
+            </Link>
+          </Card>
+          <Card imgAlt="Indonesian Plastics Recycle" imgSrc="/images/picture3.jpg" className="mx-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+            <Link href={"https://www.epr-indonesia.id/id/directories/Indonesian%20Plastic%20Recyclers%20%28IPR%29"}>
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Indonesian Plastics Recycle</h5>
+              <p className="mt-2 font-normal text-gray-700 dark:text-gray-400">
+                Indonesian Plastic Recycle (IPR) fokus mewadahi para pelaku usaha di bidang daur ulang plastik. Asosiasi ini bertujuan menciptakan ekosistem daur ulang plastik yang harmonis, agar dapat membangun ekonomi melingkar (circular
+                economy) yang berkelanjutan di kalangan pelaku usaha daur ulang plastik tersebut. Selain itu, IPR juga ingin berkontribusi terhadap kelestarian lingkungan hidup.
+              </p>
+            </Link>
+          </Card>
+        </div>
+      </div>
       <FooterLanding />
     </>
   );
