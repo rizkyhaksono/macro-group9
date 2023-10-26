@@ -35,7 +35,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-50 dark:bg-gray-800">
+        <section className=" bg-gray-50 dark:bg-gray-800">
           <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,9 +44,7 @@ export default function Home() {
                   fill="currentColor"
                 ></path>
               </svg>
-              <blockquote>
-                <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">It is horrifying that we have to fight our own government to save the environment.</p>
-              </blockquote>
+              <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">It is horrifying that we have to fight our own government to save the environment.</p>
               <figcaption className="flex items-center justify-center mt-6 space-x-3">
                 <Image loader={imageLoader} src="me.png" alt="Picture of the author" width={100} height={100} className="w-10 h-10 rounded-full" />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
@@ -97,7 +95,6 @@ export default function Home() {
               className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
               src="https://www.youtube.com/embed/2aMdLunK1Go?si=IlTCL6gk0GRrBbCk"
               title="YouTube video player"
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
